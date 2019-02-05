@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/detail_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/primary_detail"
+                layout="@layout/primary_detail_info" />
+
+            <include
+                android:id="@+id/secondary_detail"
+                layout="@layout/secondary_detail_info" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</layout>
+

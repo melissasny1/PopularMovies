@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+    <!-- Title text for DetailActivity. [CHAR LIMIT=20] -->
+    <string name="detail_activity_label">Movie Detail</string>
+    <!-- Title text for MainActivity menu item. [CHAR LIMIT=25] -->
+    <string name="title_most_popular">Most Popular Movies</string>
+    <!-- Title text for MainActivity menu item. [CHAR LIMIT=25] -->
+    <string name="title_top_rated">Top-Rated Movies</string>
+    <!-- Title text for MainActivity menu item. [CHAR LIMIT=25] -->
+    <string name="title_favorites">Favorite Movies</string>
+    <!-- Text for error message display when there is no Internet connection. [CHAR LIMIT=25] -->
+    <string name="text_no_internet">No Internet connection</string>
+    <!-- Text for error message display when there are no movie results returned from the API.
+    [CHAR LIMIT=25] -->
+    <string name="text_no_movies">No movies to display</string>
+    <!-- Text for error message display when there are no review results returned from the API.
+    [CHAR LIMIT=25] -->
+    <string name="text_no_reviews">No reviews to display</string>
+    <!-- Text for error message display when there are no trailer results returned from the API.
+    [CHAR LIMIT=25] -->
+    <string name="text_no_trailers">No videos to display</string>
+    <!-- Text for error message display when there are no favorite movies returned from
+    the SQLite database. [CHAR LIMIT=25] -->
+    <string name="text_no_favorites">No favorites saved</string>
+    <!-- ImageView content description. [CHAR LIMIT=25] -->
+    <string name="image_content_description">movie poster image</string>
+    <!-- Favorites toggle button content description. [CHAR LIMIT=25] -->
+    <string name="favorite_content_description">click to save as favorite or remove from favorites</string>
+    <!-- Trailer play arrow image content description. [CHAR LIMIT=25] -->
+    <string name="trailer_image_content_description">click play arrow to view video</string>
+    <!-- TextView label for DetailActivity. [CHAR LIMIT=20] -->
+    <string name="vote_average_label">%1$s/10</string>
+    <!-- DetailActivity toast text for favorite saved successfully. [CHAR LIMIT=20] -->
+    <string name="toast_favorite_saved">Saved to favorites</string>
+    <!-- DetailActivity toast text for favorite saved successfully. [CHAR LIMIT=20] -->
+    <string name="toast_favorite_not_saved">Error saving favorite</string>
+    <!-- DetailActivity toast text for favorite saved successfully. [CHAR LIMIT=20] -->
+    <string name="toast_favorite_deleted">Removed from favorites</string>
+    <!-- DetailActivity toast text for favorite saved successfully. [CHAR LIMIT=20] -->
+    <string name="toast_favorite_not_deleted">Error deleting favorite</string>
+    <!-- DetailActivity toast text for video that can't be viewed in a web browser. [CHAR LIMIT=20] -->
+    <string name="toast_video_can_not_be_viewed">Video can not be viewed.</string>
+    <!-- Detail Activity Trailers toggle button label text [CHAR LIMIT=20] -->
+    <string name="trailers_toggle_button_text">Videos</string>
+    <!-- Detail Activity Reviews toggle button label text [CHAR LIMIT=20] -->
+    <string name="reviews_toggle_button_text">Reviews</string>
+    <!-- Detail Activity review author textview text [CHAR LIMIT=20] -->
+    <string name="reviews_author_text">Author: %1$s</string>
+</resources>
