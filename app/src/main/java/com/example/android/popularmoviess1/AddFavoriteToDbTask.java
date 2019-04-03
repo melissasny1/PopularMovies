@@ -43,7 +43,7 @@ class AddFavoriteToDbTask extends AsyncTask<Void, Void, Uri> {
 
     @Override
     protected void onPostExecute(Uri newFavoriteUri) {
-        super.onPostExecute(newFavoriteUri);
         mListener.onTaskComplete(newFavoriteUri);
+        super.onPostExecute(newFavoriteUri);
     }
 }

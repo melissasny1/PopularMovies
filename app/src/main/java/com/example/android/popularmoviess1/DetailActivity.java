@@ -83,12 +83,12 @@ public class DetailActivity extends AppCompatActivity implements TrailerAdapter.
         mTrailerAdapter = new TrailerAdapter(this);
 
         //Get references to the toggle buttons to be displayed.
-        mFavoriteButton = (ToggleButton) findViewById(R.id.toggle_favorite_unfavorite);
-        mReviewsButton = (ToggleButton) findViewById(R.id.toggle_reviews);
-        mTrailersButton = (ToggleButton) findViewById(R.id.toggle_trailers);
+        mFavoriteButton = findViewById(R.id.toggle_favorite_unfavorite);
+        mReviewsButton = findViewById(R.id.toggle_reviews);
+        mTrailersButton = findViewById(R.id.toggle_trailers);
 
         //Get a reference to the reviews RecyclerView.
-        mReviewsRecyclerView = (RecyclerView) findViewById(R.id.rv_reviews);
+        mReviewsRecyclerView = findViewById(R.id.rv_reviews);
         //Create new LinearLayoutManager for the reviews RecyclerView.
         LinearLayoutManager rLayoutManager = new LinearLayoutManager(this);
         //Use the RecyclerView reference to assign the layout manager.
@@ -97,14 +97,14 @@ public class DetailActivity extends AppCompatActivity implements TrailerAdapter.
         //Connect the ReviewAdapter to the reviews RecyclerView.
         mReviewsRecyclerView.setAdapter(mReviewAdapter);
         //Display error messages when there's no internet connection or no reviews.
-        mReviewsErrorMessageDisplay = (TextView) findViewById
+        mReviewsErrorMessageDisplay = findViewById
                 (R.id.tv_reviews_error_message_display);
         //The ProgressBar will indicate to the user that reviews are loading and will be hidden
         //when it isn't.
-        mReviewsLoadingIndicator = (ProgressBar) findViewById(R.id.pb_reviews_loading_indicator);
+        mReviewsLoadingIndicator = findViewById(R.id.pb_reviews_loading_indicator);
 
         //Get a reference to the trailers RecyclerView.
-        mTrailersRecyclerView = (RecyclerView) findViewById(R.id.rv_trailers);
+        mTrailersRecyclerView = findViewById(R.id.rv_trailers);
         //Create new LinearLayoutManager for the trailers RecyclerView.
         LinearLayoutManager tLayoutManager = new LinearLayoutManager(this);
         //Use the RecyclerView reference to assign the layout manager.
@@ -113,10 +113,10 @@ public class DetailActivity extends AppCompatActivity implements TrailerAdapter.
         //Connect the TrailerAdapter to the trailers RecyclerView.
         mTrailersRecyclerView.setAdapter(mTrailerAdapter);
         //Display error messages when there's no internet connection or no trailers.
-        mTrailersErrorMessageDisplay = (TextView) findViewById(R.id.tv_trailers_error_message_display);
+        mTrailersErrorMessageDisplay = findViewById(R.id.tv_trailers_error_message_display);
         //The ProgressBar will indicate to the user that trailers are loading and will be hidden
         //when it isn't.
-        mTrailersLoadingIndicator = (ProgressBar) findViewById(R.id.pb_trailers_loading_indicator);
+        mTrailersLoadingIndicator = findViewById(R.id.pb_trailers_loading_indicator);
 
         mReviewsErrorMessageDisplay.setVisibility(View.GONE);
         mReviewsLoadingIndicator.setVisibility(View.GONE);
