@@ -31,7 +31,7 @@ final class QueryUtils {
     private static final String MOVIE_DB_PATH = "3/movie";
     private static final String MOVIE_DB_PATH_REVIEWS = "reviews";
     private static final String MOVIE_DB_PATH_VIDEOS = "videos";
-    private static final String MOVIE_DB_API_KEY = "add api key here";
+    private static final String MOVIE_DB_API_KEY = "";
     private static final String QUERY_PARAM = "api_key";
     //To be used by Picasso to display the movie poster image.
     static final String MOVIE_DB_POSTER_BASE_URL = "http://image.tmdb.org/t/p/w342//";
